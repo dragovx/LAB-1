@@ -1,0 +1,8 @@
+import random 
+minim=100
+sp=random.sample(range(50),10) 
+print("Данный список: ", sp) 
+for i in range(0,10): 
+    if sp[i]<minim: 
+        minim=sp[i] 
+print("Минимальное число списка", minim)
