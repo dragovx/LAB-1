@@ -1,0 +1,8 @@
+import random 
+s=0 
+sp=random.sample(range(40),20) 
+print("Данный список: ", sp) 
+for i in range(len(sp)): 
+    if sp[i]<=10 and sp[i]>=1: 
+        s=s+sp[i] 
+print(s)
