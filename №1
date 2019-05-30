@@ -1,0 +1,13 @@
+from math import *
+a=float(input("Введите значение A "))
+b=float(input("Введите значение B "))
+c=float(input("Введите значение C "))
+d=float(input("Введите значение D "))
+k=float(input("Введите значение K "))
+if (b==0) or (a==0):
+    print("Происходит деление на 0")
+else:
+    n=abs((a*a-pow(b,3)-pow(c,3)*a*a)*pow((b-c+c*(k-d/(pow(b,3)))-(k/b-k/a)*c),2)-20000)
+    print("Полученное значение =",n)
+
+
